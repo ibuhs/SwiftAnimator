@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3CDE5AEC2CFA6C81005C24F1 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDE5AEB2CFA6C81005C24F1 /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3CDE5AB52CFA682C005C24F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDE5AEC2CFA6C81005C24F1 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = SwiftAnimator;
 			packageProductDependencies = (
+				3CDE5AEB2CFA6C81005C24F1 /* Supabase */,
 			);
 			productName = SwiftAnimator;
 			productReference = 3CDE5AA42CFA682A005C24F1 /* SwiftAnimator.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 3CDE5A9B2CFA682A005C24F1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3CDE5AEA2CFA6C81005C24F1 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3CDE5AA52CFA682A005C24F1 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CDE5AEA2CFA6C81005C24F1 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CDE5AEB2CFA6C81005C24F1 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CDE5AEA2CFA6C81005C24F1 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3CDE5A9C2CFA682A005C24F1 /* Project object */;
 }
