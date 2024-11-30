@@ -18,11 +18,12 @@ class AnimationsViewModel: ObservableObject {
                     AnimationExample.transitionExamples +
                     AnimationExample.keyframeExamples +
                     AnimationExample.pathExamples +
-      AnimationExample.gestureExamples +
+                    AnimationExample.gestureExamples +
                     AnimationExample.physicsExamples  +
-      AnimationExample.particleExamples +
-      AnimationExample.morphingExamples +
-      AnimationExample.sequenceExamples  // Add this line
+                    AnimationExample.particleExamples +
+                    AnimationExample.morphingExamples +
+                    AnimationExample.sequenceExamples +
+                    AnimationExample.advancedExamples
 
       print("Loaded \(animations.count) animations")
     }
