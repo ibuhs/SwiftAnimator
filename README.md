@@ -131,7 +131,7 @@ SwiftAnimator is available under the MIT license. See the LICENSE file for more 
 
 ## 📱 Apps Using SwiftAnimator
 
-[List of apps using your library]
+
 
 ## 📞 Contact
 
